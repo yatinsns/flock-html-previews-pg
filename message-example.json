@@ -1,0 +1,28 @@
+{
+  "text": "Webapp  message",
+    "notification": "Testing webapp form",
+    "content": {
+      "title": "ngrok",
+      "type": "webapp",
+      "description": "",
+      "source": "https://aec34708.ngrok.io",
+      "app_id": "4f252cd23c3e498cb333009e83577c31",
+      "provider_name": "Flock Testing",
+      "previews": [{
+	"mime_type": "text/html",
+	"source": "https://aec34708.ngrok.io",
+	"height": "260"
+      }, {
+	"mime_type": "image/png",
+	"source": "https://d2szlqeo43tgz6.cloudfront.net/icons/poll.png",
+	"height": "50",
+	"width": "50"
+      }],
+      "actions": [{
+	"type": "view",
+	"placement": "modal"
+      }, {
+	"type": "forward"
+      }]
+    }
+}

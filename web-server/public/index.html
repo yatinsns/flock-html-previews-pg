@@ -1,0 +1,32 @@
+<html>
+  <head>
+  <title>This is index.html</title>
+  <link rel="stylesheet" type="text/css" href="jquery-ui-1.10.3/themes/base/jquery.ui.all.css"/>
+          <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-1.7-development-only.js"></script>
+	          <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		          <script type="text/javascript" src="jquery-ui-1.10.3/ui/jquery.ui.core.js"></script>
+			          <script type="text/javascript" src="jquery-ui-1.10.3/ui/jquery.ui.widget.js"></script>
+				          <script type="text/javascript" src="jquery-ui-1.10.3/ui/jquery.ui.datepicker.js"></script>
+					          <script type="text/javascript">
+						                $(function(){
+								                if(!Modernizr.inputtypes.date) {
+										                    console.log("The 'date' input type is not supported, so using JQueryUI datepicker instead.");
+												                        $("#theDate").datepicker();
+															                }
+																	            });
+																		            </script>
+  </head>
+  <body>
+    <h1>This is index.html</h1>
+    <form>
+      First name:<br>
+      <input type="text" name="firstname" value="Mickey">
+      <br>
+      Last name:<br>
+      <input type="text" name="lastname" value="Mouse">
+      <input type="theDate" name="date">
+      <br><br>
+      <input type="submit" value="Submit">
+    </form> 
+  </body>
+</html>
